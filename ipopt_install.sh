@@ -34,7 +34,9 @@ sudo make install
 sudo mkdir /usr/local/include/coin
 sudo cp /usr/local/include/coin-or/* /usr/local/include/coin -rf
 
-
+sudo ln -s /usr/local/lib/libcoinmumps.so.3 /usr/lib/libcoinmumps.so.3
+sudo ln -s /usr/local/lib/libcoinhsl.so.2 /usr/lib/libcoinhsl.so.2
+sudo ln -s /usr/local/lib/libipopt.so.3 /usr/lib/libipopt.so.3
 
 #sudo apt-get install coinor-libipopt-dev  cppad
 #sudo vim /usr/include/coin/IpSmartPtr.hpp
